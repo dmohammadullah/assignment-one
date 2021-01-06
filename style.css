@@ -1,13 +1,116 @@
 body{
     margin: 0px;
-    
-}
-h1{
     font-family: 'Roboto', sans-serif;
 }
-.orange-color{
+h1{
+    font-size: 45px;
+}
+.pera{
+    color: dimgray;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.color-highlight{
     color: #F46060;
 }
-.step-1{
+.color-two-highlight{
+    color: 363958;
+}
+.half-width{
+    width: 40%;
     float: left;
+    line-height: 20px;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+}
+.half-width img{
+        width: 90%;
+        padding-top: 5%;
+}
+section{
+    height: 450px;
+    padding-bottom: 100px;
+}
+#three-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.three{
+    width: 23%;
+    float: left;
+    margin-left: 2.5%;
+    padding: 3%;
+    height: 260px;
+}
+.three img{
+    width: 100%;
+}
+.single{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.blue img{
+    width: 70%;
+    margin-left: 15%;
+}
+.text-wrapper{
+    color: white;
+    position: relative;
+    margin-top: -16%;
+    margin-left: 20%;
+}
+.four{
+    position: relative;
+    margin-top: -7%;
+    margin-left: 70%;
+}
+.four-ancour{
+    color: white;
+    text-decoration: none;
+    background-color: #F46060;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.ses-part{
+    margin-top: -250px;
+    text-align: center;
+}
+.ses-images img{
+    width: 100%;
+    margin-left: 390px;
+}
+.ses-images{
+    float: left;
+    width: 3%;
+    padding-left: 3.5%;
+   
+}
+#color-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, rgb(16, 144, 148));
+    border-image-slice: 1;
+}
+#color-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+
+}
+#color-3{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(255, 122, 215), tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: -200px;
 }
